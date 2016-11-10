@@ -46,7 +46,7 @@ const slice = _.curry((start, end, xs) => xs.slice(start, end));
 // use a função acima slice, para definir a função 'take'
 // para que ela retorne 'n' elementos. Faça ela ser 'curry' também.
 
-const take = _.curry(n => slice(0, n))
+const take = slice(0)
 
 
 module.exports = {

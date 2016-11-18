@@ -50,10 +50,10 @@ const take = slice(0)
 
 
 module.exports = {
-	words: words,
-	sentences: sentences,
-	filterQs: filterQs,
-	max: max,
-	slice: slice,
-	take: take
+  words: words,
+  sentences: sentences,
+  filterQs: filterQs,
+  max: max,
+  slice: slice,
+  take: take
 };

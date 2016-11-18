@@ -1,13 +1,13 @@
 {
-  "name": "mostly-adequate",
-  "description": "",
+  "name": "mostly-adequate-exercises",
+  "description": "Exercises resolution from book mostly-adequate-guide",
   "scripts": {
     "test": "mocha ./**/*.spec.js"
   },
   "dependencies": {
-    "accounting": "^0.4.1",
-    "chai": "^3.5.0",
-    "mocha": "^3.1.2",
-    "ramda": "^0.22.1"
+    "accounting": "0.4.1",
+    "chai": "3.5.0",
+    "mocha": "3.1.2",
+    "ramda": "0.22.1"
   }
 }
